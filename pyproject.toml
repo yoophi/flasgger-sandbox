@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "flasgger-sandbox"
+version = "0.1.0"
+description = ""
+authors = ["Pyunghyuk Yoo <yoophi@gmail.com>"]
+packages = [{ include = "app" }]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+Flask = "^2.1.2"
+flasgger = "^0.9.5"
+
+[tool.poetry.dev-dependencies]
+black = "^22.3.0"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
